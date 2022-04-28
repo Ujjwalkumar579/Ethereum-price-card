@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+
+:root
+{
+    --dark-blue_main_bg : hsl(217, 54%, 11%);
+    --dark-blue_card_bg : hsl(216, 50%, 16%);
+    --dark-blue_line : hsl(215, 32%, 27%);
+    --white : hsl(0, 0%, 100%);
+
+}
+
+*
+{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body
+{
+    font-family: 'Outfit', sans-serif;
+    background: var(--dark-blue_main_bg);
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container
+{
+    width: 280px;
+    height: 480px;
+    background: hsl(214deg 50% 16%);
+    border-radius: 15px;
+    padding: 18px;
+    box-shadow: 0px 30px 0px 15px hsl(216deg 50% 10%);
+    /* position: relative; */
+    /* background: #fff; */
+}
+
+.container .img img
+{
+    /* position: absolute; */
+    width: 100%;
+    border-radius: 7px;
+}
+
+.container .content h4
+{
+    color: #fff;
+    letter-spacing: 0.50px;
+    font-size: larger;
+    padding: 12px 0px;
+}
+
+.container .content p
+{
+    color: hsl(215, 51%, 70%);
+    font-size: 15px;
+}
+
+.container .content .rate_time li
+{
+    display: inline;
+    padding: 15px 0px;
+    font-size: 18px;
+}
+
+.container .content .rate_time li img
+{
+    margin-right: 5px;
+}
+.container .content .rate_time li:nth-child(1)
+{
+    float: left;
+    color: hsl(178, 100%, 50%);
+    display: flex;
+    align-items: center;
+    font-size: 15px;
+    /* margin: 0px; */
+}
+.container .content .rate_time li:nth-child(2)
+{
+    float: right;
+    color: hsl(215, 51%, 70%);
+    display: flex;
+    align-items: center;
+    font-size: 15px;
+
+}
+hr {
+    border: none;
+    height: 1px;
+    width: 100%;
+    /* Set the hr color */
+    color: #333; /* old IE */
+    background-color: hsl(214, 32%, 29%); /* Modern Browsers */
+}
+
+.container .content .avatar
+{
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.container .content .avatar li
+{
+    display: inline;
+    color: aliceblue;
+    /* padding: 15px 0px; */
+    /* font-size: 18px; */
+    /* padding: 10px 0px; */
+}
+.container .content .avatar li img
+{
+    width: 35px;
+    margin: 10px 10px 10px 0px;
+    border: 0.5px solid #fff;
+    border-radius: 50%;
+}
+.container .content .avatar li span
+{
+    color: hsl(215, 51%, 70%);
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+    
+}
